@@ -3,8 +3,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   // SITE_URL and BASE_PATH are injected by Docker / CI; defaults keep local dev working without env vars.
-  site: process.env.SITE_URL || 'https://www.example.com',
-  base: process.env.BASE_PATH || '/',
+  site: process.env.SITE_URL || 'https://www.YanidEstuvoAqui.github.io',
+  base: process.env.BASE_PATH || '/YanidEstuvoAqui.github.io',
   vite: {
     plugins: [tailwindcss()],
   },
